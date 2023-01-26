@@ -27,9 +27,9 @@ echo “${TRANSHELL_CONTENT_THIS_IS_A_TEST_DOC}”
 
 例如`transhell/test_en_US.transhell`或者`transhell/test_zh_CN.transhell`
 
-格式为
+
 ```
-变量="内容"
+TRANSHELL_CONTENT_THIS_IS_A_TEST_DOC="这是一个测试文档"
 ```
 
 > 特性
