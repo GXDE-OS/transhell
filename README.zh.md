@@ -8,7 +8,7 @@
 ### 使用指南
 **建议结合本仓库example目录下的例子查看**
 
-1. 将需要国际化的脚本中的文案转为助记变量(推荐为$TRANSHELL_CONTENCT_XXXXXX)
+1. 将需要国际化的脚本中的文案转为助记变量(推荐为$TRANSHELL_CONTENT_XXXXXX)
 
 
 
