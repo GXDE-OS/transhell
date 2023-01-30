@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 ##load transhell
 function load_transhell_debug()
 {
@@ -30,10 +29,3 @@ function update_transhell()
 load_transhell $@
 }
 
-
-load_transhell_debug
-
-#############################################################
-
-echo -e "${TRANSHELL_CONTENT_README}"
-read 

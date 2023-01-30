@@ -3,6 +3,8 @@
 
 为了使用transhell,请在你的脚本的最上方加入`example`中的 .`load_transhell` 函数并执行之。
 
+你也可以通过`source`的方式导入此函数，参见`example-source`
+
 ### 使用指南
 **建议结合本仓库example目录下的例子查看**
 
