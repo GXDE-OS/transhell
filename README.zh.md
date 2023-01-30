@@ -3,7 +3,7 @@
 
 为了使用transhell,请在你的脚本的最上方加入`example`中的 .`load_transhell` 函数并执行之。
 
-你也可以通过`source`的方式导入此函数，参见`example-source`
+你也可以通过`source`的方式导入此函数，参见`example-source`，或者安装`transhell`的deb包后 `source /opt/durapps/transhell/transhell.sh` 来调用
 
 ### 使用指南
 **建议结合本仓库example目录下的例子查看**
