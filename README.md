@@ -15,7 +15,7 @@ You can also import this function through `source`, see `example-source`, or use
 0. Import the function
 
 ```
-source /opt/dupps/transhell/transhell. sh
+source /opt/durapps/transhell/transhell. sh
 load_transhell
 
 ```
