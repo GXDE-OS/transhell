@@ -8,6 +8,14 @@
 ### 使用指南
 **建议结合本仓库example目录下的例子查看**
 
+0. 导入函数
+
+```
+source /opt/dupps/transhell/transhell. sh
+load_transhell
+
+```
+
 1. 将需要国际化的脚本中的文案转为助记变量(推荐为$TRANSHELL_CONTENT_XXXXXX)
 
 
