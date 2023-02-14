@@ -1,1 +1,1 @@
-./transhell.sh
+../../bashimport/transhell.sh
