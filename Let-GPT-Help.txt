@@ -37,6 +37,7 @@ TRANSHELL_CONTENT_HELLO_WORLD="你好 世界！"
 
 ```
 Please study this usage method. I will provide you with the program source code that requires this kind of operation in the following dialogue. For multiline texts, it is recommended to use different variables for better future modifications. Please help me execute this operation. You don't need to explain the steps, just let me know the modified program and the translated transhell file.
+//////Please learn this usage method. I will send you the program source code and transhell file that require this operation in the following conversation. Please reverse the operations based on the variable names and content in the transhell file to restore the source program, and convert the variables starting with TRANSHELL_CONTENT back to strings.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -89,4 +90,4 @@ TRANSHELL_CONTENT_HELLO_WORLD="你好 世界！"
 请你学习这种使用方法，我会在接下来的对话中给你发送需要做这样操作的程序源代码。对于多行的文本，建议分不同的变量，以便于后续的修改请你帮我执行这样的操作。你不必解释接下来操作的步骤，直接告知我改好的程序和翻译好的transhell即可。
 
 
-
+////请你学习这种使用方法，我会在接下来的对话中给你发送需要做这样操作的程序源代码和transhell文件。请根据transhell文件中的变量名和内容反向操作来还原源程序，把以TRANSHELL_CONTENT开头的变量还原回字符串
