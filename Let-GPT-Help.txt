@@ -5,7 +5,8 @@ The original script, named run-me-to-read-readme, is as follows:
 #!/bin/bash
 #############################################################
 
-echo -e "transhell is a solution to make bash shell script i18nlize. \nTo activate transhell, please add the load_transhell function in this script to your script and run it. To get more document, please read the README.md\n\nPlease press Enter to exit."
+echo -e "transhell is a solution to make bash shell script i18nlize"
+echo -e "Hello world!"
 read 
 ```
 The modified script is:
@@ -18,21 +19,24 @@ load_transhell_debug
 #############################################################
 
 echo -e "${TRANSHELL_CONTENT_README}"
+echo -e "${TRANSHELL_CONTENT_HELLO_WORLD}"
 read 
 ```
 The corresponding transhell file, named run-me-to-read-readme_en_US.transhell, contains the following content:
 ```
 #!/bin/bash
-TRANSHELL_CONTENT_README="transhell is a solution to make bash shell script i18nlize. \nTo activate transhell, please add the load_transhell function in this script to your script and run it. To get more document, please read the README.md\n\nPlease press Enter to exit."
+TRANSHELL_CONTENT_README="transhell is a solution to make bash shell script i18nlize"
+TRANSHELL_CONTENT_HELLO_WORLD="Hello world!"
 ```
 
 The corresponding transhell file, named run-me-to-read-readme_zh_CN.transhell, contains the following content:
 ```
 #!/bin/bash
-TRANSHELL_CONTENT_README="transhell是一个bash国际化方案，可以让你的bash脚本拥有国际化的能力\n为了使用transhell,请在你的脚本的最上方加入本脚本中的 load_transhell 函数并执行之。获取更多使用文档，请查看README.md. \n\n请按回车退出。"
+TRANSHELL_CONTENT_README="transhell是一个bash国际化方案，可以让你的bash脚本拥有国际化的能力"
+TRANSHELL_CONTENT_HELLO_WORLD="你好 世界！"
 
 ```
-Please study this usage method. I will send you the program source code that requires such operations in the next conversation. Please help me execute these operations. You don't need to explain the steps of the following operations. Just provide me with the modified program and the translated transhell files.
+Please study this usage method. I will provide you with the program source code that requires this kind of operation in the following dialogue. For multiline texts, it is recommended to use different variables for better future modifications. Please help me execute this operation. You don't need to explain the steps, just let me know the modified program and the translated transhell file.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -45,7 +49,8 @@ Please study this usage method. I will send you the program source code that req
 #!/bin/bash
 #############################################################
 
-echo -e "transhell is a solution to make bash shell script i18nlize. \nTo activate transhell, please add the load_transhell function in this script to your script and run it. To get more document, please read the README.md\n\nPlease press Enter to exit."
+echo -e "transhell is a solution to make bash shell script i18nlize"
+echo -e "Hello world!"
 read 
 ```
 修改后的程序为
@@ -59,6 +64,7 @@ load_transhell_debug
 #############################################################
 
 echo -e "${TRANSHELL_CONTENT_README}"
+echo -e "${TRANSHELL_CONTENT_HELLO_WORLD}"
 read 
 
 ```
@@ -66,8 +72,8 @@ read
 对应的transhell文件一，名为 run-me-to-read-readme_en_US.transhell 内容为
 ```
 #!/bin/bash
-TRANSHELL_CONTENT_README="transhell is a solution to make bash shell script i18nlize. \nTo activate transhell, please add the load_transhell function in this script to your script and run it. To get more document, please read the README.md\n\nPlease press Enter to exit."
-
+TRANSHELL_CONTENT_README="transhell is a solution to make bash shell script i18nlize"
+TRANSHELL_CONTENT_HELLO_WORLD="Hello world!"
 
 ```
 
@@ -75,12 +81,12 @@ TRANSHELL_CONTENT_README="transhell is a solution to make bash shell script i18n
 
 ```
 #!/bin/bash
-TRANSHELL_CONTENT_README="transhell是一个bash国际化方案，可以让你的bash脚本拥有国际化的能力\n为了使用transhell,请在你的脚本的最上方加入本脚本中的 load_transhell 函数并执行之。获取更多使用文档，请查看README.md. \n\n请按回车退出。"
-
+TRANSHELL_CONTENT_README="transhell是一个bash国际化方案，可以让你的bash脚本拥有国际化的能力"
+TRANSHELL_CONTENT_HELLO_WORLD="你好 世界！"
 
 ```
 
-请你学习这种使用方法，我会在接下来的对话中给你发送需要做这样操作的程序源代码，请你帮我执行这样的操作。你不必解释接下来操作的步骤，直接告知我改好的程序和翻译好的transhell即可。
+请你学习这种使用方法，我会在接下来的对话中给你发送需要做这样操作的程序源代码。对于多行的文本，建议分不同的变量，以便于后续的修改请你帮我执行这样的操作。你不必解释接下来操作的步骤，直接告知我改好的程序和翻译好的transhell即可。
 
 
 
