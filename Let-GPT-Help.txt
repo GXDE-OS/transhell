@@ -44,7 +44,7 @@ TRANSHELL_CONTENT_README="transhell是一个bash国际化方案，可以让你�
 
 
 
---------
+----------------------------------------------------------------------------------------------------------------------------------
 
 I used a tool called transhell to achieve internationalization support. The usage of this tool involves modifying the text displayed to the user in the original script into variables in the format ${TRANSHELL_CONTENT_CONTENTINFO}, and importing it through a translation file ending with "transhell".
 Here is an example of using the transhell translation program. Please learn its usage method.
