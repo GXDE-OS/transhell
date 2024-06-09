@@ -29,3 +29,15 @@ function update_transhell()
 load_transhell $@
 }
 
+function transhell() {
+    local str="$1"
+    local uuid=$(echo -n "$str" | md5sum | awk '{print $1}')
+    local translated=$(eval echo \$\{"$uuid"\})
+
+    if [ -z "$translated" ]; then
+        echo "$str"  # Fallback to the original string if no translation is found
+    else
+        echo "$translated"
+    fi
+}
+
