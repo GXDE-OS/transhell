@@ -1,0 +1,6 @@
+transhell (1.1.0) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- shenmo <shenmo@spark-app.store>  Tue, 24 Sep 2024 12:31:37 +0800

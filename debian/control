@@ -1,0 +1,16 @@
+Source: transhell
+Section: utils
+Priority: optional
+Maintainer: shenmo <shenmo@spark-app.store>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/transhell.git
+#Vcs-Browser: https://salsa.debian.org/debian/transhell
+
+Package: transhell
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},bash
+Description: make bash shell i18n. Can be used by source /opt/durapps/transhell/transhell.sh
