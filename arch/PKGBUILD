@@ -1,0 +1,24 @@
+# Maintainer: CharOfString <root@charofstring.cc>
+pkgname=transhell-git
+pkgver=1.1.0
+pkgrel=1
+pkgdesc='Translation library for shell scripts used by GXDE helpers'
+arch=('any')
+url="https://github.com/GXDE-OS/transhell"
+license=('GPL-3.0-or-later')
+depends=('bash')
+makedepends=('git')
+provides=('transhell')
+conflicts=('transhell')
+source=()
+sha512sums=()
+
+# 直接使用 PKGBUILD 所在的 git 仓库作为源码 ・ Build from the git checkout this PKGBUILD lives in.
+_srcroot() {
+  git -C "$startdir" rev-parse --show-toplevel
+}
+
+package() {
+  # 与 debian/install 相同，src/ 即为安装根目录 ・ Same as debian/install, src/ is the install root.
+  cp -r --no-preserve=ownership "$(_srcroot)/src/." "$pkgdir/"
+}
