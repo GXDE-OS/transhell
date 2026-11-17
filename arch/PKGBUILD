@@ -1,5 +1,5 @@
 # Maintainer: CharOfString <root@charofstring.cc>
-pkgname=transhell-git
+pkgname=transhell
 pkgver=1.1.0
 pkgrel=1
 pkgdesc='Translation library for shell scripts used by GXDE helpers'
@@ -8,8 +8,9 @@ url="https://github.com/GXDE-OS/transhell"
 license=('GPL-3.0-or-later')
 depends=('bash')
 makedepends=('git')
-provides=('transhell')
-conflicts=('transhell')
+provides=("transhell-git=$pkgver")
+conflicts=('transhell-git')
+replaces=('transhell-git')
 source=()
 sha512sums=()
 
